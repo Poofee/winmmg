@@ -1215,7 +1215,7 @@ int MMG2D_saveMesh(MMG5_pMesh mesh,const char *filename) {
       }
       else {
         if ( !bin ) {
-          fprintf(inm,"%.15lg %.15lg %" MMG5_PRId "\n",ppt->c[0],ppt->c[1],ref);
+          fprintf(inm,"%.15lg %.15lg 0 %" MMG5_PRId "\n",ppt->c[0],ppt->c[1],ref);
           fflush(inm);
         }
         else {
